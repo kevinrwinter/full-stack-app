@@ -25,7 +25,7 @@ export function CreateUser() {
   return (
     <div>
       <h1>Create Users</h1>
-      <form onSubmit={handleSubmit} action="" method="">
+      <form onSubmit={handleSubmit}>
         <label htmlFor="name">Name:</label>
         <input type="text" name="name" id="name" onChange={handleChange} />
         <br />
